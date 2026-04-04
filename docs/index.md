@@ -1,17 +1,23 @@
-# Dive into Gemini CLI: Introduction
+# Get Started with Gemini CLI
 
-Welcome to **Gemini CLI in Sublime Text**, a powerful integration that brings Google's Gemini AI agent directly into your favorite code editor.
+Welcome to the documentation for **Gemini CLI for Sublime Text**. This guide will help you set up and master the agentic interface that brings Google's Gemini AI directly into your development workflow.
 
-## What is Gemini CLI?
+## [Overview](/get-started/overview/)
+Learn about the plugin's features and how it interacts with Sublime Text to provide a powerful, context-aware AI assistant.
 
-Gemini CLI (`@google/gemini-cli`) is more than just a chatbot. It is an agentic command-line tool capable of interacting with your file system, searching the web, and executing development tasks. This Sublime Text plugin provides a seamless graphical interface to control this agent without leaving your workflow.
+## [Installation](/get-started/installation/)
+Step-by-step guide to installing the `gemini-cli` tool and the Sublime Text package via Package Control or manual methods.
 
-## Key Features
+## [Authentication](/get-started/authentication/)
+Configure your credentials using terminal OAuth, API keys, or Google Vertex AI for enterprise environments.
 
-- **Agentic Chat**: Engage in multi-turn conversations with an AI that can perform actions.
-- **Context Awareness**: Easily send current files, selections, or entire directories as context to the AI.
-- **Tool Execution**: Gemini can request to read files, list directories, or run commands (subject to your approval).
-- **Git-style Diffs**: Review AI-proposed code changes in a familiar unified diff view before applying them.
-- **Privacy Focused**: By default, no data is sent automatically. Only explicit chat messages and @-mentioned files are shared with the Gemini API.
+## [Quickstart](/get-started/quickstart/)
+A 5-minute guide to opening your first chat, sending messages, and interacting with files.
 
-Follow our guides to start exploring the capabilities of Gemini in your development environment.
+---
+
+### Further Reading
+
+- [**Basic Usage**](/basic-usage/) – Learn the core commands and chat interaction workflow.
+- [**Context Menu**](/context-menu/) – Master file and sidebar integration to provide rich context to the AI.
+- [**Command Palette**](/command-palette/) – Use the command palette for keyboard-driven control and configuration.
