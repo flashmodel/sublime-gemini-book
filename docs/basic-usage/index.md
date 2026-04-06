@@ -1,3 +1,9 @@
+---
+layout: default
+title: Basic Usage
+nav_order: 3
+---
+
 # Basic Usage
 
 Once you have set up Gemini CLI, you can begin interacting with the agent through various interfaces in Sublime Text.

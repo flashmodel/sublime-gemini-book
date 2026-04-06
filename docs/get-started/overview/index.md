@@ -1,3 +1,10 @@
+---
+layout: default
+title: Overview
+parent: Get Started
+nav_order: 1
+---
+
 # Overview
 
 Google's `gemini-cli` is a powerful, interactive command-line agent designed specifically for software engineering tasks. It brings the advanced capabilities of Gemini AI directly into your development workflow. As an autonomous co-developer, it can intelligently read files, execute shell commands, search the web, and analyze your entire codebase. Its primary use cases include debugging complex code issues, writing comprehensive tests, orchestrating large-scale refactors, generating documentation, and exploring unfamiliar codebases. By leveraging built-in tools like robust grep searching and surgical file editing, it helps you build software more safely and efficiently.

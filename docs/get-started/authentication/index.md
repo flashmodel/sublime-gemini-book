@@ -1,3 +1,10 @@
+---
+layout: default
+title: Authentication
+parent: Get Started
+nav_order: 3
+---
+
 # Authentication
 
 You must authenticate before the Gemini agent can process your requests. The plugin supports three ways to configure authentication.

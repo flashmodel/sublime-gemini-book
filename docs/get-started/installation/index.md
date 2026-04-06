@@ -1,3 +1,10 @@
+---
+layout: default
+title: Installation
+parent: Get Started
+nav_order: 2
+---
+
 # Installation
 
 To use this tool, you must install both the **Gemini CLI tool** and the **Sublime Text package**.

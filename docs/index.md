@@ -1,3 +1,11 @@
+---
+layout: default
+title: Home
+nav_order: 1
+description: "Master Gemini CLI using Sublime Text"
+permalink: /
+---
+
 # Get Started with Gemini CLI
 
 Welcome to the documentation for **Gemini CLI for Sublime Text**. This guide will help you set up and master the agentic interface that brings Google's Gemini AI directly into your development workflow.

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Command Palette
+nav_order: 5
+---
+
 # Command Palette
 
 The Command Palette is the most powerful way to control Gemini CLI features without using your mouse. Press `Cmd+Shift+P` (macOS) or `Ctrl+Shift+P` (Windows/Linux) and search for these commands:

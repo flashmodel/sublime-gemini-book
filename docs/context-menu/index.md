@@ -1,3 +1,9 @@
+---
+layout: default
+title: Context Menu
+nav_order: 4
+---
+
 # Context Menu
 
 The Gemini CLI plugin integrates seamlessly with the Sublime Text context menu, allowing you to quickly provide your code as context to the AI.

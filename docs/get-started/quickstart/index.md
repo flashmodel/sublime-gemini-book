@@ -1,3 +1,10 @@
+---
+layout: default
+title: Quickstart
+parent: Get Started
+nav_order: 4
+---
+
 # Quickstart
 
 Ready to start your first interaction with Gemini? Follow these steps to get up and running in minutes.
