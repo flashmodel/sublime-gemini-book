@@ -13,7 +13,7 @@ search:
 # Navigation configuration
 aux_links:
   "Gemini CLI on GitHub":
-    - https://github.com/flashmodel/sublime-gemini-book
+    - https://github.com/flashmodel/using-sublime-gemini
 
 # Footer content
 footer_content: "Copyright &copy; 2024 flashmodel. Distributed by an MIT license."
