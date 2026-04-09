@@ -22,6 +22,27 @@ Setting the working space tells the Gemini agent which directory it should use f
 2. Select **`Set Gemini Working Space`**.
 3. All subsequent file searches, directory listings, and shell commands will be executed relative to this folder.
 
+### Multi-Root Workspaces folders
+
+Additionally, this plugin supports Sublime Text's multi-root workspaces. By default, it injects all currently open folders into the Gemini CLI automatically, ensuring the agent can access your entire open project across multiple roots.
+
+To use this feature:
+1. Go to the menu bar and select **Project** > **Add Folder to Project...**
+
+   ![Add Folder to Project](../assets/images/add-workspace-dir.png)
+2. Choose the additional folders you want to include in your workspace.
+3. The Gemini agent will automatically have access to all folders in the sidebar.
+
+   ![Workspace Folders](../assets/images/workspace-folders.png)
+
+This can be disabled via the `"share_workspace_folders": false` setting in `GeminiCLI.sublime-settings` if you prefer to restrict the agent to only the explicitly set working space:
+
+```json
+{
+  "share_workspace_folders": false
+}
+```
+
 ## Tab Context
 
 Right-clicking on a file tab also provides the **`Chat with Gemini agent`** option. This is the fastest way to add the current file to your chat without manually typing `@filename`.
