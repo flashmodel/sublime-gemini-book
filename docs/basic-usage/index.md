@@ -28,6 +28,19 @@ You can also assign a key binding for faster access:
 - **Send**: Press `Ctrl+Enter` (macOS: `Cmd+Enter`) to send the message to Gemini.
 - **History**: Use the `Up` and `Down` arrow keys to cycle through your previous prompts.
 
+## Setting the Model
+
+You can change the AI model used for the current session at any time.
+
+1. Open the Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`).
+2. Search for and select **`Gemini: Set Model`**.
+
+   ![Set Model Command](../assets/images/model-command.png)
+
+3. Select the model you wish to use (e.g., `gemini-2.5-pro` or `gemini-2.5-flash`). Use `esc` key leaving it blank to revert to the default model.
+
+   ![Select Model](../assets/images/model-select.png)
+
 ## Interaction Workflow
 
 1. **Thinking Phase**: Gemini often thinks before responding. You will see an animated indicator while the model processes your query.
