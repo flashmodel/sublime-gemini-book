@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+    --brand-color: #8B5CF6;
+    --brand-color-dark: #7C3AED;
+}
+
+body {
+    font-family: 'Inter', system-ui, sans-serif !important;
+    background-color: #fafafa !important;
+}
+
+/* TermMate Brand Button */
+.aux-nav-list a[href*="termmate.app"] {
+    background: linear-gradient(to right, var(--brand-color), var(--brand-color-dark));
+    color: #fff !important;
+    padding: 6px 16px;
+    border-radius: 9999px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.aux-nav-list a[href*="termmate.app"]:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.aux-nav-list a[href*="github.com"] {
+    margin-right: 16px;
+}
+
+/* Minimalist refinements */
+.site-nav, .site-header {
+    border-color: rgba(0, 0, 0, 0.05) !important;
+}

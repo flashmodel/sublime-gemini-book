@@ -25,3 +25,9 @@ footer_content: "Copyright &copy; 2024 flashmodel. Distributed by an MIT license
 
 # Just the Docs specific settings
 heading_anchors: true
+color_scheme: "light"
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Custom CSS
+custom_css: ["assets/css/custom.css"]
