@@ -15,8 +15,10 @@ search:
 
 # Navigation configuration
 aux_links:
-  "Gemini CLI on GitHub":
+  "GitHub":
     - https://github.com/flashmodel/using-sublime-gemini
+  "Explore TermMate":
+    - https://termmate.app
 
 # Footer content
 footer_content: "Copyright &copy; 2024 flashmodel. Distributed by an MIT license."
