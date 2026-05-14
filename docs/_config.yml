@@ -1,6 +1,9 @@
 title: A Sublime Dive into Gemini CLI
 description: Master Gemini CLI using Sublime Text
 
+url: "https://gemini.termmate.app"
+baseurl: ""
+
 # Theme configuration
 remote_theme: just-the-docs/just-the-docs
 
